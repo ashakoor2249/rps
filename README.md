@@ -3,12 +3,14 @@ This program simpulates a rock paper scissors game with the user and the compute
 
 11/03/2021
 
-Significant changes were made to the program. First IntEnum was imported from enum, so that each choice is associated with
-a number. A class Action was also created to group choices into their own namespaces to make the code more expressive. This way 
-comparisons are more efficant and straightforward. The choice is kid proofed to ensure that the user puts in correct input
-a number between 0 and 2 inclusive.
+Significant changes were made to the program. 
 
-Defined a get user selection fucntion that asks the user to input their choice among rock paper and scissors. Each chocie is associated with a number for comparison purposes.
+First IntEnum was imported from enum, so that each choice is associated with a number. 
+
+A class called Action was created to reference the different choices by assigning each one a value. This way comparisons 
+are more efficant straightforward and have a class name assoiciated with them. 
+
+Defined a get user selection fucntion that asks the user to input their choice among rock paper and scissors. Each chocie is associated with a number for comparison purposes thanks to the Action class. The choice is kid proofed to ensure that the user puts in correct input which is a number between 0 and 2 inclusive.
 
 Defined get computer selection which randomly assigns the computer either rock paper or scissors. Again each choice is associated
 with a number for comparison purposes.
