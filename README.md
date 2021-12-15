@@ -1,7 +1,5 @@
-11/02/2021
-This program simpulates a rock paper scissors game with the user and the computer. A simple practice program utilzing input, if else statements, annd random.
 
-11/03/2021
+This program simpulates a rock paper scissors game with the user and the computer. A simple practice program utilzing input, if else statements, annd random.
 
 Significant changes were made to the program. 
 
