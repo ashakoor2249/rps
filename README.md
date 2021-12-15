@@ -5,17 +5,20 @@ This program simpulates a rock paper scissors game with the user and the compute
 
 Significant changes were made to the program. 
 
-First IntEnum was imported from enum, so that each choice is associated with a number. 
+First the random and IntEnum module are imported at the start of the program.
+The Action class is defined which defines symbolic names bound to unique constant values. This way the user inputs either 0 1 2 for 
+paper scissor respectivly and removes the issues in inputing string. Random capitiliztion, accidental misspelling of the words etc.
+Inputting a number to represent the choices is much simpler.
 
-A class called Action was created to reference the different choices by assigning each one a value. This way comparisons 
-are more efficant straightforward and have a class name assoiciated with them. 
+First function in the program is the get user selection function, which as the name suggests gets the user choice of either rock, 
+paper, or scissors. After the user inputs a number between 0 and 2 for their choice the function returns the choice and stores it into
+the user action variable.
 
-Defined a get user selection fucntion that asks the user to input their choice among rock paper and scissors. Each chocie is associated with a number for comparison purposes thanks to the Action class. The choice is kid proofed to ensure that the user puts in correct input which is a number between 0 and 2 inclusive.
+The second function in the program is the get computer selection which is similiar to the get user selection function, but utilizes
+random to get either rock, paper, or scissors. That random choice is stored in the computer action variable.
 
-Defined get computer selection which randomly assigns the computer either rock paper or scissors. Again each choice is associated
-with a number for comparison purposes.
+The Third fucntion is the determine winner function which takes as input the user action and computer action variables. A series of if 
+else statements determines the winner based on the rules of rock paper scissors.
 
-Defined determine winner function that takes the user choice and computer choice as parameters, compares the two, and determines the 
-winner based on the rules of rock paper scissors.
-
+The body of the program is a while loop which allows the user to play as many games as they desire.
 
